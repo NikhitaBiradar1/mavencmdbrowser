@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="TestRunner1">
+    <classes>
+      <class name="org.smokeandregressionpractice.test.Class1Practice"/>
+      <class name="org.smokeandregressionpractice.test.Class2Practice"/>
+      <class name="org.smokeandregressionpractice1.test.Class2Practice"/>
+      <class name="org.smokeandregressionpractice2.test.Class3Practice"/>
+      <class name="org.smokeandregressionpractice1.test.Class3Practice"/>
+      <class name="org.smokeandregressionpractice2.test.Class1Practice"/>
+      <class name="org.smokeandregressionpractice1.test.Class1Practice"/>
+      <class name="org.smokeandregressionpractice.test.Class3Practice"/>
+      <class name="org.smokeandregressionpractice2.test.Class2Practice"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
